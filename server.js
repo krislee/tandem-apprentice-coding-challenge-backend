@@ -31,7 +31,7 @@ app.use(express.json())
 app.use(morgan("dev"))
 
 
-
+// ROUTES
 app.get('/trivia', function(req, res) {
     console.log(json)
     res.json(json)
