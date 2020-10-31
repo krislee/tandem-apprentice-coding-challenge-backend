@@ -3,7 +3,7 @@ require('dotenv').config()
 const express = require('express')
 const cors = require('cors')
 const app = express()
-const json = require('../Apprentice_TandemFor400_Data.json')
+const json = require('./Apprentice_TandemFor400_Data.json')
 
 // GLOBAL VARIABLE
 const PORT = process.env.PORT
