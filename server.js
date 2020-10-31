@@ -10,7 +10,7 @@ const PORT = process.env.PORT
 const NODE_ENV = process.env.NODE_ENV
 
 // CORS
-const whitelist = ["http://localhost:3000/"]
+const whitelist = ["http://localhost:3000/, https://krislee.github.io/tandem-apprentice-coding-challenge-frontend/"]
 const corsOptions = {
     origin: function (origin, callback) {
       if (whitelist.indexOf(origin) !== -1) {
