@@ -10,4 +10,4 @@ Under the assumption that the localhost was making server requests, the server w
 Click [here](https://github.com/krislee/tandem-apprentice-coding-challenge-frontend) to view the frontend repositiory. 
 
 ## <ins> Deployed Trivia Game </ins> ##
-Click [here](https://krislee.github.io/tandem-apprentice-coding-challenge-frontend) to play the game.
+Click [here](https://tandem-apprenticeship-coding-challenge.netlify.app) to play the game.
