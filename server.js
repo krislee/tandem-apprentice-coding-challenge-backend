@@ -2,7 +2,6 @@
 require('dotenv').config()
 const express = require('express')
 const cors = require('cors')
-const morgan = require('morgan')
 const app = express()
 const json = require('../Apprentice_TandemFor400_Data.json')
 
@@ -28,8 +27,6 @@ NODE_ENV === "development" ? app.use(cors()) : app.use(cors(corsOptions));
 
 // MIDDLEWARE
 app.use(express.json())
-app.use(morgan("dev"))
-
 
 // ROUTES
 app.get('/trivia', function(req, res) {
